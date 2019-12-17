@@ -1,3 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/67680f2eb947c5cbd58b40961b4a61e9?family=Apple+SD+Gothic+Neo);
+
+@font-face {font-family: "Apple SD Gothic Neo"; src: url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.eot"); src: url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff") format("woff"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.svg#Apple SD Gothic Neo") format("svg"); }
+
 .home{
   top: 50%;
   left: 50%;
@@ -8,4 +12,75 @@
 
   width: 375px;
   height: 667px;
+}
+.letsdoh1{
+  color: #FFFFFF;
+  padding-top: 240px;
+  font-family: Apple SD Gothic Neo;
+  font-size: 70px;
+  text-align: center;
+}
+
+.youcando{
+  transform: translate(0, -50px);
+  font-size: 25px;
+  color: #FFFFFF;
+  opacity: 50%;
+  font-family: Apple SD Gothic Neo;
+  text-align: center;
+}
+
+.LOGIN {
+  text-align: center;
+	background-color:#ffffff;
+	border-radius:42px;
+	display: inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:9px 50px;
+	text-decoration:none;
+}
+.LOGIN:hover {
+	background-color:#5752D6;
+  color: #FFFFFF;
+  border: 2px solid white;
+}
+.LOGIN:active {
+	position:relative;
+	top:1px;
+}
+
+.SIGNUP {
+  text-align: center;
+	background-color:#5752D6;
+  border: 2px solid white;
+	border-radius:42px;
+	display: inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:9px 50px;
+	text-decoration:none;
+}
+.SIGNUP:hover {
+	background-color:#FFFFFF;
+  color: #666666;
+  border: 1px solid white;
+}
+.SIGNUP:active {
+	position:relative;
+	top:1px;
+}
+.login{
+  text-align: center;
+  padding-top: 10px;
+}
+.signup{
+  padding-top: 20px;
+  text-align: center;
 }
