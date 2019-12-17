@@ -67,6 +67,9 @@
 }
 
 .LOGIN {
+  top: 450px;
+  left: 110px;
+  position: absolute;
   text-align: center;
 	background-color:#ffffff;
 	border-radius:42px;
@@ -85,11 +88,13 @@
   border: 2px solid white;
 }
 .LOGIN:active {
-	position:relative;
-	top:1px;
+	
 }
 
 .SIGNUP {
+  top: 500px;
+  left: 110px;
+  position: absolute;
   text-align: center;
 	background-color:#5752D6;
   border: 2px solid white;
@@ -100,7 +105,7 @@
 	font-family: Apple SD Gothic Neo;
 	font-size:16px;
 	font-weight:bold;
-	padding:9px 50px;
+	padding:9px 45px;
 	text-decoration:none;
 }
 .SIGNUP:hover {
@@ -109,8 +114,7 @@
   border: 1px solid white;
 }
 .SIGNUP:active {
-	position:relative;
-	top:1px;
+
 }
 .login{
   text-align: center;
